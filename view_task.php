@@ -16,6 +16,7 @@ if (!empty($filter_priority)) {
 
 $sql .= " ORDER BY " . $conn->real_escape_string($sort_by);
 
+
 $result = $conn->query($sql);
 ?>
 
