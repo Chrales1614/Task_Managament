@@ -19,7 +19,7 @@ $result = $conn->query($sql);
     <div class="container">
         <h1>Task Management</h1>
 
-        <a href="create.php" class="btn">Create New Task</a>
+        <a href="create_task.php" class="btn">Create New Task</a>
 
         <table>
             <thead>
